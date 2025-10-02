@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+/* 내용이 작아서 푸터 아래 안내려올때만 100vh 적용할것(푸터 아래 맞추기 위해서 설정)-wrap높이 100% 설정 */
+#app{
+  height: 100vh;
+}
